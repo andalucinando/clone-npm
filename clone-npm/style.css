@@ -1,0 +1,239 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+body  {
+  background:rgb(221, 6, 6);
+  font-family:"Open Sans","OpenSans",sans-serif;
+  
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 35px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top-left {
+  float: left;
+  margin:0  15px;
+}
+
+header {
+background-color: rgba(232,217,217,.3);
+  background-size: cover;
+  padding: 0 0 70px 0 ;
+  color:white;
+  height: 600px;
+ 
+}
+
+.header-down {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 0 0 145px;
+  padding: 30px 50px 0px 90px;
+  
+  }
+
+.header-down h1{
+  font-size:4em;
+
+}
+
+
+.logo-npm {
+  width:7%;
+  float:left;
+  margin:10px;
+}
+
+.header-up a , span{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#search-bar {
+  background: rgb(31, 82, 111);
+  width: 74%;
+  height: 45px;
+  margin:8px 5px 15px 5px;
+  padding-left:20px;
+  border: 0;
+}
+
+
+
+
+#sign-npm {
+    background: rgb(240, 146, 51);
+    margin:10px;
+    color:white;
+}
+
+
+.logo-bear {
+  width: 3.5%;
+  float:right;
+}
+
+#sign-npm ,#sign-orgs ,#install-npm {
+  border:0;
+  cursor:pointer;
+  padding:10px;
+  border-radius:160px;
+  font-size:15px;
+}
+
+
+#sign-up-paint {
+    width: 15%;
+    margin: 50px 0 50px 200px;
+    align-self: center;
+}
+
+
+#signup-sec {
+   color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  padding:60px 0 30px 0 ;
+}
+
+
+.paragraph {
+  margin:50px 150px 0 0 ;
+  float:right;
+  width:35%;
+}
+
+.paragraph h2 {
+  transform: skew(9deg,0deg);
+  font-style: italic;
+  font-size: 2.3em;
+  padding:0px 10px 20px 0;
+}
+
+.paragraph li {
+  padding:0.5px 10px 20px 0;
+  font-size:0.9em;
+}
+
+#sign-orgs{
+  background: rgb(203, 56, 55);
+  color: white;
+  
+}
+
+
+.white-link {
+  color:white;
+}
+
+
+#install-sec {
+  background-size: cover;
+    background: url("./images/forklift.svg");;
+  color: white;
+  padding:30px  0px 280px 0 ;
+  margin: 0 auto;
+}
+
+.div-install {
+   width: 25%;
+  margin: 50px 0 0 120px ;
+  padding: 0 auto;
+}
+
+#install-npm {
+  background:rgb(49, 68, 88);
+  
+}
+
+#col-sec {
+  
+  background:rgb(255, 205, 205);
+  margin: 0 auto;
+  width :100%; 
+  padding: 10px 0 0 0; 
+  
+}
+
+
+
+.div-icons {
+    color: rgb(135, 145, 156);
+    text-align: center;
+    padding:20px 150px;
+    align-items: center;
+    text-size-adjust: 10px;
+      
+}
+
+
+
+.col-3 {
+  width:33%;
+  float:left;
+}
+
+
+.clearfix {
+  clear:inline-start;
+  
+}
+
+.div-icons a,b {
+  color:rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.div-icons p {
+    color:rgb(135, 145, 156);
+    padding: 0 73px;
+    margin: 0 0 40px;
+    padding: 0 70 ;
+}
+
+#create-an-org{
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+
